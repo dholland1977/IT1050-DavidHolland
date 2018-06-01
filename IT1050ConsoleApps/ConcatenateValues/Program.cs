@@ -7,8 +7,8 @@ namespace ConcatenateVallues
         static void Main(string[] args)
         {
             string name = "David";
-            string greeting = "Hello,";
-            Console.WriteLine("{0} {1}", greeting, name);
+            string greeting = "Hello";
+            Console.WriteLine($"{greeting}, {name}");
             Console.Read();
         }
     }

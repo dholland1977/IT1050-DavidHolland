@@ -39,8 +39,8 @@ namespace SumOfTwoInputs
                         Console.WriteLine("That was an invlid int, please try again.");
                     }
                 }
-                Console.WriteLine("Your total is: {0}", AddValues(input1, input2).ToString());
-                Console.WriteLine("Press any key to try again");
+                Console.WriteLine($"Your total is: {AddValues(input1, input2).ToString()}");
+                Console.WriteLine("Press any key to add two different values.");
                 Console.ReadKey();
                 Console.Clear();
             }
